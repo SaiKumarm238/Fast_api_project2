@@ -1,4 +1,4 @@
-from exceptions import StoryExceotion
+from exceptions import StoryException
 from db.models import DBArtical
 from db.schemas import AricalBase, Artical, AricalDisplay
 from sqlalchemy.orm.session import Session
@@ -6,7 +6,7 @@ from fastapi import HTTPException, status
 
 def create_article(db:Session, request:AricalBase):
     if request.content.startswith("Once upon a time"):
-        raise StoryExceotion('No Stories Please')
+        raise StoryException('No Stories Please')
     new_artic = DBArtical(title= request.title, content =request.content, published= request.published, user_id = request.creator_id)
     db.add(new_artic)
     db.commit()
