@@ -1,3 +1,4 @@
+from pydoc import describe
 from turtle import title
 from pydantic import BaseModel
 from typing import List
@@ -47,4 +48,8 @@ class AricalDisplay(BaseModel):
     class Config():
         orm_mode = True
     
+class ProductBase(BaseModel):
+    title: str
+    description: str
+    price: float
     

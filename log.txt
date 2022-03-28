@@ -1,0 +1,5 @@
+{'MyAPI': 'call to get all products'}:{'Time': datetime.datetime(2022, 3, 25, 12, 8, 48, 852049)}
+{'MyAPI': 'call to get all products'}:{'Time': datetime.datetime(2022, 3, 25, 12, 9, 21, 928227)}
+{'MyAPI': 'call to get all products'}:{'Time': datetime.datetime(2022, 3, 25, 12, 25, 53, 629534)}
+{'MyAPI': 'call to get all products'}:{'Time': datetime.datetime(2022, 3, 25, 12, 29, 7, 510250)}
+myAPI_temp:Template read for product with id 3
