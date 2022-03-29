@@ -3,3 +3,5 @@
 {'MyAPI': 'call to get all products'}:{'Time': datetime.datetime(2022, 3, 25, 12, 25, 53, 629534)}
 {'MyAPI': 'call to get all products'}:{'Time': datetime.datetime(2022, 3, 25, 12, 29, 7, 510250)}
 myAPI_temp:Template read for product with id 3
+My Api:
+	http://127.0.0.1:8000/dependencies/?separator=---%3E&tag=My%20Api
